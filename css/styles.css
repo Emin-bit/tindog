@@ -1,0 +1,168 @@
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: 'montserrat-bold', sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/******Navigation Bar***********/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4638;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel.item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4638;
+  text-align: center;
+}
+
+.ctah3 {
+  color: #fff;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 900;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+.btn-footer {
+  margin-right: 10px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: grey;
+}
+
+.padd {
+  padding: 5px 5px 15px;
+}
